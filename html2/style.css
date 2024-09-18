@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    padding: 50px;
+}
+.con{
+    height: 100vh;
+    background-color: aliceblue;
+    display: grid;
+    grid-row: 1fr;
+    padding: 50px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.br{
+    display: grid;
+    justify-items: flex-end;
+    align-items: flex-end;
+    background-color: brown;
+}
+.bg{
+    display: grid;
+    align-items: flex-end;
+    background-color: green;
+}
+.bp{
+    display: grid;
+    background-color: pink;
+    justify-items: end;
+}
+.by{
+    display: grid;
+    background-color: yellow;
+}
